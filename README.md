@@ -98,7 +98,7 @@ Présentation des différentes compétences dans plusieurs domaines :
 - Liens vers LinkedIn et GitHub.
 - Possibilité d'envoyer un message directement depuis le portfolio.
 
-## 📁 Structure du projet
+## Structure du projet
 
 Voici la structure d'organisation proposée pour le projet :
 
@@ -174,14 +174,14 @@ Vérifier l'installation de Git :
 git --version
 ```
 
-## 🚀 Installation et configuration du projet
+## Installation et configuration du projet
 
 ### 1. Cloner le dépôt GitHub
 
 Ouvrir un terminal et exécuter la commande suivante :
 
 ```bash
-git clone https://github.com/laurence1Mas/portfolio.git
+git clone https://github.com/laurence1Mas/portfolio_with_python.git
 ```
 
 Cette commande permet de récupérer une copie du projet depuis GitHub.
@@ -189,13 +189,13 @@ Cette commande permet de récupérer une copie du projet depuis GitHub.
 ### 2. Accéder au dossier du projet
 
 ```bash
-cd portfolio
+cd portfolio_with_python
 ```
 
 ### 3. Créer un environnement virtuel
 
 ```bash
-python -m venv .venv
+py -m venv .venv
 ```
 
 L'environnement virtuel permet d'isoler les dépendances du projet afin d'éviter les conflits avec les packages utilisés dans d'autres projets Python.
@@ -271,7 +271,7 @@ http://127.0.0.1:5000
 
 L'application devrait maintenant être accessible en local.
 
-## 🧪 Mode développement
+##  Mode développement
 
 Pendant le développement, Flask peut redémarrer automatiquement le serveur lorsque des modifications sont détectées.
 
@@ -283,7 +283,7 @@ flask --app app run --debug
 
 **Attention :** le mode Debug doit être utilisé uniquement pendant le développement local. Il ne doit jamais être activé en production.
 
-## 📦 Gestion des dépendances
+##  Gestion des dépendances
 
 Installer un nouveau package :
 
@@ -309,7 +309,7 @@ Désactiver l'environnement virtuel :
 deactivate
 ```
 
-## 🔐 Gestion du projet avec Git et GitHub
+## Gestion du projet avec Git et GitHub
 
 Initialiser Git :
 
@@ -332,7 +332,7 @@ git commit -m "Initialisation du projet portfolio"
 Associer le dépôt distant GitHub :
 
 ```bash
-git remote add origin https://github.com/laurence1Mas/portfolio.git
+git remote add origin https://github.com/laurence1Mas/portfolio_with_python.git
 ```
 
 Envoyer le code sur GitHub :
@@ -342,7 +342,7 @@ git branch -M main
 git push -u origin main
 ```
 
-## 🌍 Déploiement de l'application
+##  Déploiement de l'application
 
 L'application pourra être hébergée sur une plateforme compatible avec Python et Flask.
 
@@ -371,7 +371,7 @@ gunicorn app:app
 
 Veiller également à configurer les variables d'environnement nécessaires sur la plateforme d'hébergement.
 
-## 🔮 Améliorations futures
+##  Améliorations futures
 
 Plusieurs fonctionnalités pourront être ajoutées progressivement :
 
@@ -384,7 +384,7 @@ Plusieurs fonctionnalités pourront être ajoutées progressivement :
 - Proposer plusieurs langues (français et anglais).
 - Intégrer un système de statistiques de visites.
 
-## 👩‍💻 À propos de l'auteure
+##  À propos de l'auteure
 
 **Laurence MASIKA**
 
@@ -395,10 +395,10 @@ Passionnée par les nouvelles technologies, le développement web et l'apprentis
 ### Me retrouver sur les plateformes professionnelles
 
 - **GitHub :** [laurence1Mas](https://github.com/laurence1Mas)
-- **LinkedIn :** [Mon profil LinkedIn](https://www.linkedin.com/)
+- **LinkedIn :** [Mon profil LinkedIn](https://www.linkedin.com/in/laure-masika-8a7aa832a/)
 - **Portfolio :** [Mon portfolio.](https://laurence-mak-portfolio.vercel.app/)
 
-## 📄 Licence
+##  Licence
 
 Ce projet est développé dans un cadre personnel et professionnel afin de présenter mon parcours, mes compétences et mes réalisations.
 
